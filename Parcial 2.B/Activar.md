@@ -30,7 +30,7 @@ En Fantom tampoco es necesario revisar algo , la matriz de estados no presentara
 
 <img src="images/me5.PNG" width="200"/> <img src="images/mn2.PNG" width="200"/>
 
-De nuevo volvemos a encontrar una entidad de tipo Goblin así que revisamos su estado y el estado de sus celdas vecinas. Actualmente esta entidad se encuentra *Activa*, entonces no cambia su estado. Respecto a sus vecina encontramos que en la posición [0][0] encontramos un goblin que esta activo por lo tanto le asigamos un estado de *Inactiva*. En la posición [1][1] encontramos una entidad de tipo Espectro con estado *Activa*, sin embargo Espectro no implementa *Desactivable*, por lo tanto se deja en *Activa* y no cambia su estado. La matriz de estados resultante es la siguiente:
+De nuevo volvemos a encontrar una entidad de tipo Goblin así que revisamos su estado y el estado de sus celdas vecinas. Actualmente ésta entidad se encuentra *Activa*, entonces no cambia su estado. Respecto a sus vecinas vemos que en la posición [0][0] encontramos un goblin que esta activo por lo tanto le asigamos un estado de *Inactiva*. En la posición [1][1] encontramos una entidad de tipo Espectro con estado *Activa*, sin embargo Espectro no implementa *Desactivable*, por lo tanto se deja en *Activa* y no cambia su estado. La matriz de estados resultante es la siguiente:
 
 ![Matriz Estados](images/ms3.PNG)
 
